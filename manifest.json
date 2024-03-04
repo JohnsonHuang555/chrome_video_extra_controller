@@ -12,5 +12,5 @@
     "48": "images/icon-32.png",
     "128": "images/icon-32.png"
   },
-  "permissions": ["storage", "activeTab", "scripting"]
+  "permissions": ["activeTab", "scripting"]
 }
