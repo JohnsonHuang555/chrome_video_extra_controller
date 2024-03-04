@@ -1,0 +1,17 @@
+{
+  "name": "Video extra controller-beta.1.0.0",
+  "description": "Additional controls for any video, such as playback speed-beta.1.0.0",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_popup": "popup.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "icons": {
+    "16": "images/icon-16.png",
+    "32": "images/icon-32.png",
+    "48": "images/icon-32.png",
+    "128": "images/icon-32.png"
+  },
+  "permissions": ["storage", "activeTab", "scripting"]
+}
