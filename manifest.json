@@ -1,11 +1,10 @@
 {
-  "name": "Video extra controller-beta.1.0.0",
-  "description": "Additional controls for any video, such as playback speed-beta.1.0.0",
-  "version": "1.0.0",
+  "name": "Video extra controller-beta.0.0.2",
+  "description": "Additional controls for any video, such as playback speed-beta.0.0.2",
+  "version": "0.0.2",
   "manifest_version": 3,
   "action": {
-    "default_popup": "popup.html",
-    "default_icon": "hello_extensions.png"
+    "default_popup": "popup.html"
   },
   "icons": {
     "16": "images/icon-16.png",
