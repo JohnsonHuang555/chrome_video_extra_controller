@@ -7,10 +7,31 @@
     <h2>Video extra controller</h2>
     <section>
       <h3>Playback Speed</h3>
-      <button id="setOnePointFiveSpeed">Set 1.5x speed</button>
-      <button id="setTwoSpeed">Set 2x speed</button>
+      <div class="playback-speed-control">
+        <button id="setZeroPointFiveSpeed">0.5x</button>
+        <button id="setOriginalSpeed">1x</button>
+        <button id="setOnePointFiveSpeed">1.5x</button>
+        <button id="setTwoSpeed">2x</button>
+      </div>
     </section>
-    <button id="reset">Reset</button>
+    <section>
+      <h3>Playback Time</h3>
+      <div class="playback-time-control">
+        <button id="minusThirtySec">-30s</button>
+        <button id="minusFifteenSec">-15s</button>
+        <button id="addFifteenSec">+15s</button>
+        <button id="addThirtySec">+30s</button>
+      </div>
+    </section>
+    <section>
+      <h3>Others</h3>
+      <div class="others-control">
+        <button id="play">Play</button>
+        <button id="pause">Pause</button>
+        <button id="replay">Replay</button>
+        <button id="reset">Reset</button>
+      </div>
+    </section>
     <script src="popup.js"></script>
   </body>
 </html>
